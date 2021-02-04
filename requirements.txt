@@ -1,8 +1,8 @@
 jupyterlab
-ipywidgets
 numpy
 sympy
 scipy
 matplotlib
 pandas
-ipympl
+# ipympl
+# ipywidgets

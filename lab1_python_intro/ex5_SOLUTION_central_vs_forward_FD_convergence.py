@@ -3,7 +3,8 @@
 """
 Created on Wed Nov  4 16:19:48 2020
 
-@author: grzegorz
+@author: ggruszczynski
+
 """
 
 import os
