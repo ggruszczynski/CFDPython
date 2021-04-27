@@ -1,7 +1,7 @@
 
-# Homework
+# Homework - CFD
 
-We are going to solve the diffusion (heat) equation on the next lab.
+We are going to solve the diffusion (heat) equation on the next CFD lab.
 
 There is a couple of YouTube videos (from 3Blue1Brown channel) with an excellent visualisation of the underlaying physics.
 
