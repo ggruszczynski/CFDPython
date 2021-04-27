@@ -4,5 +4,5 @@ sympy
 scipy
 matplotlib
 pandas
-# ipympl
-# ipywidgets
+ipympl
+ipywidgets
