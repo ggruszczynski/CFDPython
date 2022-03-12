@@ -45,9 +45,7 @@ ipympl
 Depending on the type of installation, the jupyter lab/notebook server can be run from anaconda enviroment or straight from the command line by typing:
 
 ```.sh
-$jupyter lab
-OR
-$jupyter notebook
+$jupyter-lab
 ```
 
 ### VSCode
