@@ -61,5 +61,6 @@ for time in range(maxIter):
  
     if (time%100==0): # Visualization
         plt.clf(); plt.imshow(sqrt(u[0]**2+u[1]**2).transpose(),cmap=cm.Reds)
-        plt.savefig("vel."+str(time/100).zfill(4)+".png")
+        plt.savefig("output/vel."+str(time/100).zfill(4)+".png")
+        print(f"iteration {time} / {maxIter}")
 

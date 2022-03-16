@@ -26,7 +26,6 @@ dx = 0.02 * x0
 c = calc_condition_number_naive(dot_product, x0, x1, dx)
 print(c)
 
-# calculate the difference explicitly
-print(
-      abs(1 - ((x0 + dx) @ x1 / (x0 @ x1) ))
-      )
+# calculate the ratio
+print(  ((x0 + dx) @ x1) / (x0 @ x1) 
+)

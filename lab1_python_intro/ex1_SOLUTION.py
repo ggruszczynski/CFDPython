@@ -1,5 +1,18 @@
 ### Exercice:
 
+def add(x,y):
+    return x+y
+
+def multiply(x,y):
+    return x*y
+
+my_fun = add
+my_fun(3,4)
+
+my_fun = multiply
+my_fun(3,4)
+
+
 # For i from 1 to 100:
 
 # * if i is divisible by `3` and `5` print `35`
