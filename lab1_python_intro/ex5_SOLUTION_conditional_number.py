@@ -14,7 +14,7 @@ def dot_product(u,v):
 
 def calc_condition_number_naive(f, u, v, delta):
     cond_number = LA.norm(f(u+delta, v) - f(u,v)) / LA.norm(f(u,v))
-    cond_number /= LA.norm(u+delta)/LA.norm(u)
+    cond_number /= LA.norm(delta)/LA.norm(u)
     return cond_number
 
 
@@ -24,8 +24,13 @@ x1 = np.array([2, 6, -5])
 dx = 0.02 * x0
 # dx = np.array([0.02, 0.04, -0.04])
 c = calc_condition_number_naive(dot_product, x0, x1, dx)
-print(c)
+print(f"condition number: {c}")
+
+print(f"result: {dot_product(u,v)}")
+print(f"result (disturbed): {dot_product(u+dx,v)}")
+
 
 # calculate the ratio
-print(  ((x0 + dx) @ x1) / (x0 @ x1) 
-)
+# print(  ((x0 + dx) @ x1) / (x0 @ x1) )
+
+# the closer the condition number to 1 the better

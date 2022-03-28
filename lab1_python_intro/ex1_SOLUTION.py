@@ -36,3 +36,16 @@ def fun():
 
 
 fun()
+
+
+
+# geek's method ;)
+my_list = [ i for i in range(100)]
+
+res = [ 35 if ele % 5 == 0 and ele % 3 == 0 
+        else 3 if ele % 3 == 0 
+        else 5 if ele % 5 == 0
+        else ele 
+        for ele in my_list]
+        
+print(res)
