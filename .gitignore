@@ -6,3 +6,4 @@ lessons/.ipynb_checkpoints
 *.ipynb_checkpoints
 .idea/*
 biednie/*
+_build/
