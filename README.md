@@ -61,7 +61,7 @@ If you prefer Miniconda (a mini version of Anaconda that saves you disk space), 
 
 ```Bash
 conda update conda
-conda install jupyter
+conda install jupyterlab
 conda install numpy scipy sympy matplotlib
 ```
 
@@ -70,7 +70,7 @@ conda install numpy scipy sympy matplotlib
 If you already have Python installed on your machine, you can install Jupyter using pip:
 
 ```Bash
-pip install jupyter
+pip install jupyterlab
 ```
 
 Please also make sure that you have the necessary libraries installed by running
