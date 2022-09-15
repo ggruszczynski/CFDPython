@@ -1,9 +1,9 @@
 
-# Acknowledgement
+# gpu_colab
 
-[Prof. Lorena Barba](http://lorenabarba.com) is acknowledged for the development of the original [CFDPython](https://github.com/barbagroup/CFDPython) course.
+Click the badge to open the repository in google colab.
 
-Here, some materials are new and some are modified to highlight particular numerical schemes.
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ggruszczynski/gpu_colab/blob/main/10_intro_setup.ipynb)
 
 ## Labs
 
@@ -13,7 +13,14 @@ The materials for each lab meeting are in the *lab_x* folder.
 > Launch an interactive session with this module using the Binder service:
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ggruszczynski/CFDPython/HEAD)
 
+
+
+
 # CFD Python - the origin
+
+[Prof. Lorena Barba](http://lorenabarba.com) is acknowledged for the development of the original [CFDPython](https://github.com/barbagroup/CFDPython) course.
+Here, some materials are new and some are modified to highlight particular numerical schemes.
+
 
 > Please cite as: Barba, Lorena A., and Forsyth, Gilbert F. (2018). CFD Python: the 12 steps to Navier-Stokes equations. _Journal of Open Source Education_, **1**(9), 21, https://doi.org/10.21105/jose.00021
 
